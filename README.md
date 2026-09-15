@@ -9,7 +9,7 @@ A complex 3D physical simulation and mathematical visualization built using the 
 ### ⚙️ Computational Physics Engine
 * **Elastic Kinematics:** Implements strict vector-based pairwise collision detection (`resolve_pairwise_collisions`) ensuring total kinetic energy is conserved when particles interact in 3D space.
 * **Dynamic Spatial Entropy:** Uses Shannon's Information Entropy formula to calculate the disorder of particle distribution within each of the 27 individual sub-cubes. Each sub-cube is mathematically partitioned into 8 smaller micro-bins to evaluate probability distributions.
-* **Procedural Data Visualization:** Seamlessly maps the calculated local entropy to a continuous color gradient, where Red indicates a highly ordered state (low entropy) and Blue indicates maximum disorder (high entropy). 
+* **Procedural Data Visualization:** Seamlessly maps the calculated local entropy to a continuous color gradient, where Red indicates a highly ordered state (low entropy) and Blue indicates maximum disorder (high entropy)
 * **Real-Time UI Updates:** Dynamically renders and updates 27 floating-point entropy trackers anchored to the camera frame, recalculating statistics on every sub-frame (`dt`) of the animation loop.
 
 ### 🎥 Visualization Concept
